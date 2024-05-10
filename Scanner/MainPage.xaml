@@ -14,7 +14,6 @@
                FontSize="Medium" TextChanged="LastScannedBarcode_OnTextChanged">
         </Entry>
         <!-- <Label x:Name="lastScannedBarcode11" /> -->
-        <!-- <Label x:Name="FoundProductName" Text="Nothing selected yet!" /> -->
         <Button Text="Search Product" Clicked="SearchProduct_Clicked" WidthRequest="250" 
                 VerticalOptions="Center" HorizontalOptions="Center" />
         <zxing:ZXingScannerView IsScanning="True" OnScanResult="ScannerView_OnScanResult" />
