@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Scanner.NewProductPage">
+    <ContentPage.Content>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="50,20,50,500">
+                <Label Text="Fill below fields for new product:" FontSize="Medium"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand" />
+                <!-- <Label Text="Barcode" -->
+                <!--        VerticalOptions="CenterAndExpand" -->
+                <!--        HorizontalOptions="CenterAndExpand" /> -->
+                <Entry x:Name="lastScannedBarcode" VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="FillAndExpand" IsEnabled="False"
+                       Keyboard="Numeric" HorizontalTextAlignment="Center"/>
+                <!-- <Label Text="Name" -->
+                <!--        VerticalOptions="CenterAndExpand" -->
+                <!--        HorizontalOptions="CenterAndExpand" /> -->
+                <Entry x:Name="inputName" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Center" Placeholder="Product Name"/>
+                <!-- <Label Text="Price" -->
+                <!--        VerticalOptions="CenterAndExpand" -->
+                <!--        HorizontalOptions="CenterAndExpand"/> -->
+                <Entry x:Name="inputPrice" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                       Keyboard="Numeric" HorizontalTextAlignment="Center" Placeholder="Product Price"/>
+                <!-- <Label Text="Quantity" -->
+                <!--        VerticalOptions="CenterAndExpand" -->
+                <!--        HorizontalOptions="CenterAndExpand" /> -->
+                <Entry x:Name="inputQuantity" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                       Keyboard="Numeric" HorizontalTextAlignment="Center" Placeholder="Product Quantity"/>
+                <Button x:Name="SaveButtonNewProduct" Margin="0,40,0,0" Text="Save"
+                        Clicked="SaveButtonNewProduct_OnClicked" WidthRequest="250" 
+                        VerticalOptions="Center" HorizontalOptions="Center" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
