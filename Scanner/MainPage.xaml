@@ -13,7 +13,7 @@
         <Entry x:Name="lastScannedBarcode" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"
                FontSize="Medium" TextChanged="LastScannedBarcode_OnTextChanged">
         </Entry>
-        <!-- <Label x:Name="lastScannedBarcode11" /> -->
+
         <Button Text="Search Product" Clicked="SearchProduct_Clicked" WidthRequest="250" 
                 VerticalOptions="Center" HorizontalOptions="Center" />
         <zxing:ZXingScannerView IsScanning="True" OnScanResult="ScannerView_OnScanResult" />
