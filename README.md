@@ -10,7 +10,7 @@ Features:
 
 How to Use:
 -----------
-- Clone the Repository: Clone this repository to your local machine using git clone https://github.com/your-username/barcode-scanner-app.git.
+- Clone the Repository: Clone this repository to your local machine using git clone https://github.com/pooyafo/BarcodeScannerApp.git
 - Open in Visual Studio: Open the project in Visual Studio or any other compatible IDE.
 - Build and Run: Build the project and run it on an Android device or emulator.
 - Scan Barcodes: Use the app to scan barcodes and retrieve product details. You can also manually input barcode numbers for product search.
